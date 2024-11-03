@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qraft Academy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        .internship-apprenticeship {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+        .program {
+            flex: 1;
+            margin: 10px;
+            padding: 20px;
+            background: #e2e2e2;
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .program:hover {
+            background: #d1d1d1;
+        }
+        .development {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .card {
+            flex: 1;
+            margin: 10px;
+            padding: 20px;
+            background: #e2e2e2;
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .card:hover {
+            background: #d1d1d1;
+        }
+        .work-with-us {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .work-item {
+            flex: 1;
+            margin: 10px;
+            padding: 20px;
+            background: #e2e2e2;
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .work-item:hover {
+            background: #d1d1d1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Qraft Academy</h1>
+    </header>
+    <section>
+        <h2>Programs Offered</h2>
+        <div class="internship-apprenticeship">
+            <div class="program" onclick="window.location.href='internship.html'">
+                <h3>2 Months Hybrid Internship</h3>
+                <p>Gain practical experience and skills in a dynamic environment.</p>
+            </div>
+            <div class="program" onclick="window.location.href='apprenticeship.html'">
+                <h3>1 Year Residential Apprenticeship</h3>
+                <p>Deep dive into your field with comprehensive training and mentorship.</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>Development Tracks</h2>
+        <div class="development">
+            <div class="card" onclick="window.location.href='courses/personal-development.html'">
+                <h3>Personal Development</h3>
+                <p>Enhance your personal skills and growth.</p>
+            </div>
+            <div class="card" onclick="window.location.href='courses/professional-development.html'">
+                <h3>Professional Development</h3>
+                <p>Explore courses and books on professional growth.</p>
+            </div>
+            <div class="card" onclick="window.location.href='courses/digital-skilling.html'">
+                <h3>Digital Skilling</h3>
+                <p>Learn essential digital skills for the modern workplace.</p>
+            </div>
+            <div class="card" onclick="window.location.href='courses/freelancing.html'">
+                <h3>Freelancing</h3>
+                <p>Resources for starting and succeeding in freelancing.</p>
+            </div>
+            <div class="card" onclick="window.location.href='courses/entrepreneurship.html'">
+                <h3>Entrepreneurship</h3>
+                <p>Courses and books to help you start your own business.</p>
+            </div>
+            <div class="card" onclick="window.location.href='courses/investment-education.html'">
+                <h3>Investment Education</h3>
+                <p>Learn how to manage and grow your investments.</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>Get Involved</h2>
+        <div class="work-with-us">
+            <div class="work-item" onclick="window.location.href='work-with-us.html'">
+                <h3>Work With Us</h3>
+                <p>Join our team and make a difference.</p>
+            </div>
+            <div class="work-item" onclick="window.location.href='partner-with-us.html'">
+                <h3>Partner With Us</h3>
+                <p>Collaborate with us for mutual growth.</p>
+            </div>
+            <div class="work-item" onclick="window.location.href='donate.html'">
+                <h3>Donate</h3>
+                <p>Support our mission and help us grow.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
